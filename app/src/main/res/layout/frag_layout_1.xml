@@ -1,0 +1,41 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.hyunseo__shop.MainActivity">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:id="@+id/FristValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:textSize="20sp"
+            android:text="@string/onevalue"
+            android:layout_marginLeft="100dp" />
+        <TextView
+            android:id="@+id/SecondValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:textSize="20sp"
+            android:text="@string/twovalue"
+            android:layout_marginLeft="100dp" />
+        <Button
+            android:id="@+id/UP"
+            android:layout_marginStart="100dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/증가"
+            android:layout_marginLeft="100dp" />
+
+    </LinearLayout>
+
+</FrameLayout>
